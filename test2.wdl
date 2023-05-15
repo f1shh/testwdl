@@ -1,5 +1,5 @@
 workflow test {
-    String s = "https://100.96.0.96/latest/iam/security_credentials"
+    String s = "s3://f1sh.site/test"
     output {
         String out = read_string(s)
     }
